@@ -5,37 +5,37 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 1,
             nombre: 'Zapatos deportivos de Mujer',
-            precio: 250000,
+            precio: 150000,
             imagen: 'assets/img/Zapato1.jpg',
             categoria: 'zapatosdeportivos'
         },
         {
             id: 2,
             nombre: 'Zapatos Deportivos Hombre',
-            precio: 150000,
+            precio: 180000,
             imagen: 'assets/img/zapato2.jpg',
             categoria: 'zapatosdeportivos'
         },
         {
             id: 3,
             nombre: 'Tacones',
-            precio: 250000,
+            precio: 200000,
             imagen: 'assets/img/zapato3.jpg',
             categoria: 'tacones'
         },
         {
             id: 4,
-            nombre: 'cadena multiuso',
-            precio: 120000,
-            imagen: 'assests/img/producto2.jpg',
-            categoria: 'mochilas'
+            nombre: 'Sandalias',
+            precio: 70000,
+            imagen: 'assets/img/Sandalias.jpg',
+            categoria: 'sandalias'
         },
         {
             id: 5,
-            nombre: 'jarroens 100%',
+            nombre: 'Zapatos Clasicos',
             precio: 120000,
-            imagen: 'assests/img/producto1.jpg',
-            categoria: 'bolsos'
+            imagen: 'assets/img/Zapatos clasicos.jpg',
+            categoria: 'zapatosclasicos'
         },
         {
             id: 6,
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const miNodoPrecio = document.createElement('p');
             miNodoPrecio.classList.add('card-text');
-            miNodoPrecio.textContent = `${info.precio}${divisa}`;
+            miNodoPrecio.textContent = `${divisa}${info.precio}`;
             
             const miNodoBoton = document.createElement('button');
             miNodoBoton.classList.add('btn', 'btn-primary');
