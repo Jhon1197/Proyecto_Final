@@ -37,13 +37,13 @@ document.addEventListener('DOMContentLoaded', () => {
             imagen: 'assets/img/Zapatos clasicos.jpg',
             categoria: 'zapatosclasicos'
         },
-        {
+        /*{
             id: 6,
             nombre: 'pulseras 2000',
             precio: 120000,
             imagen: 'assests/img/producto4.jpg',
             categoria: 'hamacas'
-        }
+        }*/
     ];
 
     let carrito = [];
